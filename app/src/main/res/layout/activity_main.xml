@@ -22,7 +22,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:inputType="textPersonName"
-        android:hint="Username"/>
+        android:hint="Username"
+        android:textColorHint="#1f4068"
+        android:backgroundTint="#900d0d"/>
 
     <EditText
         android:id="@+id/et2"
@@ -30,7 +32,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:inputType="textPassword"
-        android:hint="Password"/>
+        android:hint="Password"
+        android:textColorHint="#1f4068"
+        android:backgroundTint="#900d0d"/>
 
     <Button
         android:id="@+id/btnlogin"
