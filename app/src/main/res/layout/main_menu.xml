@@ -27,7 +27,6 @@
                 android:layout_height="wrap_content">
 
                 <ImageView
-                    android:background="@mipmap/liga1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"/>
 
@@ -37,8 +36,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="10dp"
-                    android:text="Menu 01"
+                    android:text="Teams"
                     android:textColor="#131313"
+                    android:textStyle="bold"
                     tools:targetApi="lollipop" />
 
             </RelativeLayout>
@@ -66,7 +66,6 @@
                 android:layout_height="wrap_content">
 
                 <ImageView
-                    android:background="@mipmap/liga2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"/>
 
@@ -75,8 +74,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="10dp"
-                    android:text="Menu 02"
+                    android:text="My Favorite"
                     android:textColor="#000000"
+                    android:textStyle="bold"
                     tools:targetApi="lollipop" />
 
             </RelativeLayout>
